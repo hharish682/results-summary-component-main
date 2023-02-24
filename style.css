@@ -146,9 +146,14 @@ ul li:nth-child(4) {
   color: var(--White);
   background-color: var(--Dark_gray_blue);
   border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 300ms;
 }
 
-.attribution {
+.continue_btn:hover {
+  background-color: var(--Violet_blue);
+}
+l .attribution {
   text-align: center;
 }
 
