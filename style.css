@@ -33,6 +33,7 @@ body {
 }
 
 .container {
+  display: grid;
   background-color: var(--White);
   border-radius: 40px;
 }
@@ -131,12 +132,17 @@ ul li:nth-child(4) {
   opacity: 0.6;
 }
 
-.continues {
-  padding: 1rem 0;
+.continue_btn_container {
+  margin: 1.5rem 0;
 }
 
-.continue {
-  padding: 0.8em;
+.continue_btn {
+  font-size: 1rem;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  padding: 1em;
   color: var(--White);
   background-color: var(--Dark_gray_blue);
   border-radius: 50px;
@@ -148,7 +154,6 @@ ul li:nth-child(4) {
 
 @media screen and (min-width: 550px) {
   .container {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .display_total {
