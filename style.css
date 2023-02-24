@@ -153,7 +153,8 @@ ul li:nth-child(4) {
 .continue_btn:hover {
   background-color: var(--Violet_blue);
 }
-l .attribution {
+
+.attribution {
   text-align: center;
 }
 
