@@ -30,6 +30,7 @@
 body {
   font-family: "Hanken Grotesk";
   background-color: var(--Pale_blue);
+  max-width:800px
 }
 
 .container {
