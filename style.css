@@ -32,6 +32,7 @@ body {
   background-color: var(--Pale_blue);
   display:flex;
   align-items:center;
+  height:100vh;
   max-width:800px;
   margin:0 auto;
 }
