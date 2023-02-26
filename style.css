@@ -30,8 +30,10 @@
 body {
   font-family: "Hanken Grotesk";
   background-color: var(--Pale_blue);
+  display:flex;
+  align-items:center;
   max-width:800px;
-    margin:0 auto;
+  margin:0 auto;
 }
 
 .container {
